@@ -1,0 +1,18 @@
+div {
+    width: 6px;
+    height: 6px;
+    border-radius:50%;
+    background-color: white;
+    border:5px solid #f33 ;
+}
+div:after{
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 7px;
+     border-right: 7px solid transparent;
+     border-top: 15px solid #e00000;
+     transform: rotate(9deg);
+     z-index: -1
+     
+}
